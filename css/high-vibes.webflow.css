@@ -185,7 +185,7 @@
   line-height: 148%;
 }
 
-.project-title.bottom {
+.project-title.bottom, .project-title.bios {
   color: var(--gray);
 }
 
