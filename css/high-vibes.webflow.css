@@ -244,6 +244,7 @@
 }
 
 .list {
+  color: var(--black);
   display: flex;
 }
 
@@ -850,6 +851,8 @@
   filter: none;
   transform-origin: 0 100%;
   object-fit: cover;
+  width: 100%;
+  min-height: auto;
   position: static;
   overflow: visible;
   transform: scale(3);
@@ -892,12 +895,17 @@
 }
 
 .list-item {
+  color: var(--gray);
   align-items: center;
   display: flex;
 }
 
 .check {
   margin-right: 8px;
+}
+
+.services {
+  font-size: 1.4vw;
 }
 
 @media screen and (max-width: 991px) {
@@ -1006,6 +1014,10 @@
 
   .mobile-gallery {
     display: flex;
+  }
+
+  .services {
+    font-size: 1.7vw;
   }
 }
 
@@ -1222,6 +1234,10 @@
 
   .mobile-gallery {
     margin-bottom: 216px;
+  }
+
+  .services {
+    font-size: 2vw;
   }
 }
 
@@ -1515,6 +1531,10 @@
 
   .check {
     width: 14px;
+  }
+
+  .services {
+    font-size: 16px;
   }
 }
 
