@@ -457,7 +457,7 @@
   margin-bottom: 0;
   font-family: new-spirit, sans-serif;
   font-size: 2.1vw;
-  line-height: 148%;
+  line-height: 140%;
 }
 
 .founder-profile {
@@ -811,6 +811,8 @@
   opacity: 1;
   cursor: pointer;
   object-fit: none;
+  justify-content: flex-start;
+  align-items: stretch;
   width: auto;
   min-width: auto;
   height: auto;
@@ -823,13 +825,18 @@
 
 .grid-item:hover {
   z-index: 1000;
+  aspect-ratio: auto;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
   perspective: none;
   transform-origin: 50%;
   object-fit: none;
-  position: relative;
-  transform: none;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  min-height: 74px;
+  max-height: 80px;
+  position: static;
 }
 
 .fit {
@@ -850,12 +857,12 @@
 .fit:hover {
   filter: none;
   transform-origin: 0 100%;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
   min-height: auto;
   position: static;
   overflow: visible;
-  transform: scale(3);
+  transform: scale(6);
 }
 
 .fit.right:hover {
