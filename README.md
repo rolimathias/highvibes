@@ -1,3 +1,1 @@
-git add .
-git commit -a -m "here is a message"
-git push
+webflow generates hero image file name beginning with _ which is not readable (underscore)
